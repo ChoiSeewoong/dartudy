@@ -1,20 +1,19 @@
 import 'package:flutter/material.dart';
-import 'screens/home_screen.dart';
+import 'screens/splash_screen.dart';
 
 void main() {
-  runApp(const DartudyApp());
+  runApp(const MyApp());
 }
 
-class DartudyApp extends StatelessWidget {
-  const DartudyApp({super.key});
+class MyApp extends StatelessWidget {
+  const MyApp({super.key});
 
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
       title: 'Dartudy',
-      theme: ThemeData(primarySwatch: Colors.teal),
-      home: const HomeScreen(),
-      debugShowCheckedModeBanner: false,
+      theme: ThemeData(primarySwatch: Colors.blue),
+      home: const SplashScreen(),
     );
   }
 }
