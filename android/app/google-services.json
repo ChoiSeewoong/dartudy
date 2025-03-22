@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "783115824960",
+    "project_id": "dartudy-web",
+    "storage_bucket": "dartudy-web.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:783115824960:android:572bde4f64cbf2aca814a5",
+        "android_client_info": {
+          "package_name": "com.example.dartudy"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAsic4KcbLvpYU11yt7QXCaKM-frP5dbzY"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
